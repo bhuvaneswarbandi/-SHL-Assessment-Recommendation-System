@@ -25,7 +25,7 @@ idna
 Jinja2
 joblib
 jsonschema
-jsonschema-specifications1
+jsonschema-specifications
 MarkupSafe
 mpmath
 narwhals
