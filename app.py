@@ -1,3 +1,9 @@
+import os
+
+os.environ["STREAMLIT_SERVER_PORT"] = os.getenv("PORT", "8501")
+os.environ["STREAMLIT_SERVER_ENABLECORS"] = "false"
+os.environ["STREAMLIT_SERVER_HEADLESS"] = "true"
+
 import streamlit as st
 from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
